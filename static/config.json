@@ -3,7 +3,7 @@
     "startupScreen": "welcome",
     "kiwiServer": "/webirc/kiwiirc/",
     "restricted": true,
-    "theme": "Dark",
+    "theme": "Default",
     "showSendButton": true,
     "themes": [
         {
