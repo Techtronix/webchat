@@ -64,6 +64,7 @@
     "buffers": {
         "default_ban_mask": "*!*@%h",
         "messageLayout": "compact",
-        "show_joinparts": false
+        "show_joinparts": false,
+        "show_mode_changes": false
     }
 }
