@@ -8,7 +8,6 @@
             var m = user.ident.match(/^(uid|sid)([0-9]+)$/);
             if (m) {
                 var avatarUrl = 'https://static.irccloud-cdn.com/avatar-redirect/' + m[2];
-                debugger;
                 var img = document.createElement('img');
                 img.src = avatarUrl;
 
