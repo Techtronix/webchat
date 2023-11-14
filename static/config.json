@@ -48,6 +48,7 @@
         "channel": "#lounge",
         "direct": true,
         "direct_path": "/webirc",
+        "gecos": "$nick",
         "greetingText": "Techtronix Chat",
         "infoBackground": "/static/img/info_background.jpg",
         "infoContent": "Chat on Techtronix, all from the comfort of your browser. Pick a nickname (and enter a password if you have an account) and start chatting away!<br /><br />While you are there, feel free to register by typing:<br /><b>/ns register <i>yourpassword</i> <i>youremail</i></b><br /><br />Featured channels:<br /><ul><li>Check out the <i><a href='https://www.techtronix.net/wiki/communities'>communities</a></i> page</li></ul>",
@@ -60,10 +61,18 @@
     "embedly": {
         "key": ""
     },
-    "plugins": [],
+    "plugins": [
+        {
+            "name": "gecos",
+            "url": "static/plugins/gecos.html"
+        },
+        {
+            "name": "irccloud",
+            "url": "static/plugins/irccloud.html"
+        }
+    ],
     "buffers": {
         "default_ban_mask": "*!*@%h",
-        "messageLayout": "compact",
         "show_joinparts": false,
         "show_mode_changes": false
     }
