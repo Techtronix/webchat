@@ -1,5 +1,5 @@
 {
-    "windowTitle": "Techtronix Chat",
+    "windowTitle": "Techtronix Kiwi IRC - The web IRC client",
     "startupScreen": "welcome",
     "kiwiServer": "/webirc/kiwiirc/",
     "restricted": true,
@@ -48,7 +48,7 @@
         "channel": "#lounge",
         "direct": true,
         "direct_path": "/webirc",
-        "greetingText": "Techtronix Chat",
+        "greetingText": "Welcome!",
         "infoBackground": "/static/img/info_background.jpg",
         "infoContent": "Chat on Techtronix, all from the comfort of your browser. Pick a nickname (and enter a password if you have an account) and start chatting away!<br /><br />While you are there, feel free to register by typing:<br /><b>/ns register <i>yourpassword</i> <i>youremail</i></b><br /><br />Featured channels:<br /><ul><li>Check out the <i><a href='https://www.techtronix.net/wiki/communities'>communities</a></i> page</li></ul>",
         "nick": "Guest?",
