@@ -1,9 +1,8 @@
 <script>
     // Custom gecos (realname) plugin
-    // Sets the gecos (real name) field to be the same as the ident (username)
     kiwi.plugin('gecos', function (kiwi, log) {
         kiwi.on('network.connecting', function (event) {
-            event.network.ircClient.options.gecos = event.network.ircClient.options.username;
+            event.network.ircClient.options.gecos = `[Techtronix Web] ${event.network.ircClient.options.username}`;
         });
     });
 </script>
