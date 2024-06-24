@@ -2,7 +2,7 @@
     // Custom gecos (realname) plugin
     kiwi.plugin('gecos', function (kiwi, log) {
         kiwi.on('network.connecting', function (event) {
-            event.network.ircClient.options.gecos = `[Techtronix Web] ${event.network.ircClient.options.username}`;
+            event.network.ircClient.options.gecos = `[web] ${event.network.ircClient.options.username}`;
         });
     });
 </script>
